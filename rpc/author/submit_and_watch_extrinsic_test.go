@@ -3,12 +3,12 @@ package author_test
 import (
 	"testing"
 
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/author"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 	"github.com/stretchr/testify/assert"
+	gsrpc "github.com/sygmaprotocol/go-substrate-rpc-client/v4"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/config"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/rpc/author"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/signature"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/types"
 )
 
 func TestAuthor_SubmitAndWatchExtrinsic(t *testing.T) {

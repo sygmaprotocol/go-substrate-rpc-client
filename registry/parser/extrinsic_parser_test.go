@@ -6,12 +6,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/chain/generic"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/rpc/chain/generic"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 	"github.com/stretchr/testify/assert"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/registry"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/scale"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/types"
 )
 
 func TestExtrinsicParserFn_ParseExtrinsics(t *testing.T) {

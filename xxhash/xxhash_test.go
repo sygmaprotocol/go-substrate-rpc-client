@@ -19,8 +19,8 @@ package xxhash_test
 import (
 	"testing"
 
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/xxhash"
 	"github.com/stretchr/testify/assert"
+	. "github.com/sygmaprotocol/go-substrate-rpc-client/v4/xxhash"
 )
 
 func Test64(t *testing.T) {

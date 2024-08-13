@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/types/codec"
 
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
-	mockClient "github.com/centrifuge/go-substrate-rpc-client/v4/client/mocks"
-	mockChain "github.com/centrifuge/go-substrate-rpc-client/v4/rpc/chain/mocks"
-	mockState "github.com/centrifuge/go-substrate-rpc-client/v4/rpc/state/mocks"
+	gsrpc "github.com/sygmaprotocol/go-substrate-rpc-client/v4"
+	mockClient "github.com/sygmaprotocol/go-substrate-rpc-client/v4/client/mocks"
+	mockChain "github.com/sygmaprotocol/go-substrate-rpc-client/v4/rpc/chain/mocks"
+	mockState "github.com/sygmaprotocol/go-substrate-rpc-client/v4/rpc/state/mocks"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpcmocksrv"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 	"github.com/stretchr/testify/assert"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/rpc"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/rpcmocksrv"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/types"
 )
 
 type mockSrv struct{}

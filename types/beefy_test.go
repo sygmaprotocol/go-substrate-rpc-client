@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/assert"
+	. "github.com/sygmaprotocol/go-substrate-rpc-client/v4/types"
+	. "github.com/sygmaprotocol/go-substrate-rpc-client/v4/types/codec"
+	. "github.com/sygmaprotocol/go-substrate-rpc-client/v4/types/test_utils"
 )
 
 var sig1 = [65]byte{85, 132, 85, 173, 129, 39, 157, 240, 121, 92, 201, 133, 88, 14, 79, 183, 93, 114, 217, 72, 209, 16, 123, 42, 200, 10, 9, 171, 237, 77, 168, 72, 12, 116, 108, 195, 33, 242, 49, 154, 94, 153, 168, 48, 227, 20, 209, 13, 211, 205, 104, 206, 61, 192, 195, 60, 134, 233, 155, 203, 120, 22, 249, 186, 1}

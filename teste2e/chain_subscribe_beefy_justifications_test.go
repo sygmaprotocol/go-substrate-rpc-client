@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
 	"github.com/stretchr/testify/assert"
+	gsrpc "github.com/sygmaprotocol/go-substrate-rpc-client/v4"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/config"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/types"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/types/codec"
 )
 
 func TestChain_SubscribeBeefyJustifications(t *testing.T) {

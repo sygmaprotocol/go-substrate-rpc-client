@@ -16,7 +16,7 @@
 
 package types
 
-import "github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+import "github.com/sygmaprotocol/go-substrate-rpc-client/v4/scale"
 
 type CollectionDetails struct {
 	Owner             AccountID

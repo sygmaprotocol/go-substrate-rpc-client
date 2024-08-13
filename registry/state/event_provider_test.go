@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/state/mocks"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
 	"github.com/stretchr/testify/assert"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/rpc/state/mocks"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/types"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/types/codec"
 )
 
 func TestProvider_GetStorageEvents(t *testing.T) {

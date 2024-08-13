@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
 	"github.com/stretchr/testify/assert"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/scale"
 )
 
 func TestBitVec_Decode(t *testing.T) {

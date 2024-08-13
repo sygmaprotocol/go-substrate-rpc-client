@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/assert"
+	"github.com/sygmaprotocol/go-substrate-rpc-client/v4/scale"
+	. "github.com/sygmaprotocol/go-substrate-rpc-client/v4/types"
+	. "github.com/sygmaprotocol/go-substrate-rpc-client/v4/types/test_utils"
 )
 
 var (

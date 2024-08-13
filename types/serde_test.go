@@ -19,8 +19,8 @@ package types_test
 import (
 	"testing"
 
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
 	"github.com/stretchr/testify/assert"
+	. "github.com/sygmaprotocol/go-substrate-rpc-client/v4/types"
 )
 
 func TestSerDeOptionsFromMetadata(t *testing.T) {
